@@ -169,10 +169,11 @@ nav {
 }
 
 .first video {
-    width: 364px;
+    width: 370px;
     position: absolute;
     top: 78px;
-    left: 67px;
+    left: 65px;
+    z-index: -1;
 }
 
 .question {
@@ -295,8 +296,8 @@ a {
         width: 300px;
     }
     .first .secmedia video{
-        width: 200px;
-        top: 48px;
+        width: 250px;
+        top: 45px;
         left: 39px;
     }
 }
