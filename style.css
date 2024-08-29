@@ -152,6 +152,7 @@ nav {
 .first>div :nth-child(1) {
     font-size: 40px;
     font-weight: 700;
+
 }
 
 .first>div :nth-child(2) {
@@ -196,6 +197,7 @@ nav {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     gap: 20px;
+    padding: 0px 0px 30px 0px;
 }
 
 .faq div {
@@ -246,3 +248,58 @@ a {
     font-size: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+            /* M E D I A---Q U E R I E S */
+
+
+@media screen and (max-width:350px){
+    .content .click #em {
+        width: auto;
+    }
+    .first .secmedia img{
+        width: 200px;
+    }
+    .first .secmedia video{
+        width: 144px;
+        top: 31px;
+        left: 28px;
+    }
+    .faq {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .content> :nth-child(1) {
+        font-size: 40px;
+    }
+    .footlinks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:620px){
+    .content .click{
+        flex-direction: column;
+    }
+    .first{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media  screen and (max-width:850px){
+    .first .secmedia img{
+        width: 300px;
+    }
+    .first .secmedia video{
+        width: 200px;
+        top: 48px;
+        left: 39px;
+    }
+}
+
+
+
